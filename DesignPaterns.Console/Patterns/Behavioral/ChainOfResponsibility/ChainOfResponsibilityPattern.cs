@@ -3,7 +3,7 @@
     /// <summary>
     /// Chain of Responsibility Pattern: This pattern allows an object to pass a request along a chain of handlers. Each handler decides either to process the request or to pass it along the chain.
     /// </summary>
-    public static class ChainOfResponsibility
+    public static class ChainOfResponsibilityPattern
     {
         public static void Start()
         {

@@ -3,7 +3,7 @@
     using System;
 
     // Client code
-    public static class Interpreter
+    public static class InterpreterPattern
     {
         public static void Start()
         {

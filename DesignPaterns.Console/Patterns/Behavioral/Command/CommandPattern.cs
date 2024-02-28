@@ -7,7 +7,7 @@ namespace DesignPaterns.Console.Patterns.Behavioral.Command
     /// <summary>
     /// Command Pattern: This pattern encapsulates a request as an object, thereby allowing parameterization of clients with different requests, queuing of requests, and logging of requests.
     /// </summary>
-    public static class Command
+    public static class CommandPattern
     {
         public static void Start()
         {

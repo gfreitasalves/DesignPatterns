@@ -2,16 +2,22 @@
 using DesignPaterns.Console.Patterns.Behavioral.ChainOfResponsibility;
 using DesignPaterns.Console.Patterns.Behavioral.Command;
 using DesignPaterns.Console.Patterns.Behavioral.Interpreter;
+using DesignPaterns.Console.Patterns.Behavioral.Iterator;
+
+//Creational Patterns
 
 
-//Behavioral
-
-ChainOfResponsibility.Start();
-
-Command.Start();
-
-Interpreter.Start();
+//Structural Patterns
 
 
+//Behavioral Patterns
+
+ChainOfResponsibilityPattern.Start();
+
+CommandPattern.Start();
+
+InterpreterPattern.Start();
+
+IteratorPattern.Start();
 
 Console.ReadKey();
